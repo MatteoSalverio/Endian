@@ -207,15 +207,6 @@ let lightObj = new obj(
     0, 0, 0,
 )
 
-/*
-AAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAAA
-AAAAAAAAAAAAAAA
-*/
 const loader = new GLTFLoader();
 loader.load('assets/models/MainRoom3.gltf', (gltf) => {
     gltf.scene.position.x = -5;

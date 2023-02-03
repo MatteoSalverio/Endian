@@ -212,6 +212,7 @@ loader.load('assets/models/MainRoom3.gltf', (gltf) => {
     gltf.scene.position.x = -5;
     gltf.scene.position.z = 15;
     gltf.scene.position.y = -2.4;
+    //scene.add(new THREE.Mesh(gltf.scene.children[0].children[0].geometry, new THREE.MeshNormalMaterial()))
     scene.add(gltf.scene);
 }, undefined, function (error) {
     console.error(error);

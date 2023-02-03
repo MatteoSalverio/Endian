@@ -1,0 +1,70 @@
+body {
+    background-color: midnightblue;
+    color: aliceblue;
+    -webkit-text-stroke: 1px;
+    margin: 10px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: 'megrim';
+    src: url('https://ratlab.one/resources/fonts/Megrim-Regular.ttf');
+}
+
+.megrim {
+    font-family: megrim;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 64px;
+    margin-top: 20px;
+    margin-bottom: 2px;
+    color: chartreuse;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 20px;
+    color: aqua;
+}
+
+button {
+    font-size: 24px;
+    color: aliceblue;
+    padding: 15px;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgba(240, 248, 255, 0.202);
+}
+
+button:hover {
+    background-color: #92F1FF3B;
+    color: #48E2FF;
+    border-color: white;
+    scale: 105%;
+    transition-duration: 350ms;
+    transition-property: scale;
+}
+
+img {
+    width: 70%;
+    border-style: solid;
+    border-color: aliceblue;
+    border-width: 2px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+#versionText {
+    width: 25%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    user-select: none;
+    font-weight: 100;
+}
